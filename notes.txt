@@ -2,3 +2,5 @@
 1. if parent is not positioedn at all then absolute block will align itself respect to body.
 
 2. setTimeInveral interval can be dynmically changed by first stopping it using clearInterval() and then again setting the timer with new interval value.
+
+3. another method is using setTimeout() here u dont need to use clearTimeout() for every timer initiated as it will automatically expire. Just make sure u create action as a function which u want to repeat and cal that fxn again and again. using recursion.

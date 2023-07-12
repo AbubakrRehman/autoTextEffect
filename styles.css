@@ -15,7 +15,7 @@ body{
 
 .speed__control{
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
 }
 
 .text{
@@ -25,7 +25,7 @@ body{
 
 .speed{
     width: 40px;
-    height: 25px;
+    height: 27px;
     text-align: center;
 }
 
@@ -35,6 +35,6 @@ body{
 
 .speed__control label{
     margin-right: 10px;
-    font-size: 17px;
+    font-size: 20px;
     cursor: pointer;
 } 
