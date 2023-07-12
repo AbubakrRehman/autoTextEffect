@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Auto Text Effect</title>
 </head>
+
 <body>
-    <div class="text" data-text="I love programming"></div>
+    <div id="text" class="text" data-text="I love programming"></div>
+    <div class="speed_control">
+        <label for="speed">Speed</label>
+        <input id="speed" name="speed" type="number" max="5" min="1" value="1" step="1">
+    </div>
+    
 </body>
+<script src="index.js"></script>
+
 </html>
