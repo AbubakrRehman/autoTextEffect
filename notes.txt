@@ -1,1 +1,4 @@
-Absolute positioning behaves like relative positioning for child divs.
+
+1. if parent is not positioedn at all then absolute block will align itself respect to body.
+
+2. setTimeInveral interval can be dynmically changed by first stopping it using clearInterval() and then again setting the timer with new interval value.

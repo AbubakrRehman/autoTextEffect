@@ -4,3 +4,37 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.speed__control{
+    position: absolute;
+    bottom: 50px;
+}
+
+.text{
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+
+.speed{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+
+.speed:focus{
+    outline: none;
+}
+
+.speed__control label{
+    margin-right: 10px;
+    font-size: 17px;
+    cursor: pointer;
+} 
