@@ -1,0 +1,1 @@
+Absolute positioning behaves like relative positioning for child divs.
