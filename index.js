@@ -2,7 +2,7 @@ const text = document.getElementById("text");
 const speedElement = document.getElementById("speed");
 
 
-let speed = 500 / parseInt(speedElement.value);
+let speed = 400 / parseInt(speedElement.value);
 let data = text.dataset.text;
 text.innerHTML = "";
 let i = 0;
@@ -36,7 +36,7 @@ writeText();
 speedElement.addEventListener("input", (e) => {
     // clearInterval(timer);
     console.log("spedd");
-    speed = 500 / parseInt(e.target.value);
+    speed = 400 / parseInt(e.target.value);
     // timer = setInterval(writeText, speed);
 })
 
